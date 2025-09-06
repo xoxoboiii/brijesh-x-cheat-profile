@@ -1,0 +1,27 @@
+{
+  "name": "brijesh-x-cheat-profile",
+  "version": "1.0.0",
+  "description": "Futuristic profile page for BRIJESH X CHEAT with visitor counter and video background",
+  "main": "index.html",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "echo 'No build process needed for static site'",
+    "start": "vercel dev"
+  },
+  "keywords": [
+    "profile",
+    "gaming",
+    "futuristic",
+    "cyberpunk",
+    "tools",
+    "hacking"
+  ],
+  "author": "BRIJESH X CHEAT",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "devDependencies": {
+    "vercel": "^32.0.0"
+  }
+}
