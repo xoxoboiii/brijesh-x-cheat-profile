@@ -1,23 +1,12 @@
 {
   "version": 2,
   "name": "brijesh-x-cheat-profile",
-  "builds": [
-    {
-      "src": "index.html",
-      "use": "@vercel/static"
-    }
-  ],
   "routes": [
     {
       "src": "/(.*)",
       "dest": "/$1"
     }
   ],
-  "functions": {
-    "index.html": {
-      "maxDuration": 10
-    }
-  },
   "headers": [
     {
       "source": "/(.*)",
